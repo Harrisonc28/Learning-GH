@@ -17,6 +17,8 @@
 		7E41C56828D8E4A600F3B33F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E41C53E28D8E4A400F3B33F /* ContentView.swift */; };
 		7E41C56928D8E4A600F3B33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E41C53F28D8E4A600F3B33F /* Assets.xcassets */; };
 		7E41C56A28D8E4A600F3B33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E41C53F28D8E4A600F3B33F /* Assets.xcassets */; };
+		7E41C57A28D8E9CE00F3B33F /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E41C57928D8E9CE00F3B33F /* MyModel.swift */; };
+		7E41C57B28D8E9CE00F3B33F /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E41C57928D8E9CE00F3B33F /* MyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		7E41C55D28D8E4A600F3B33F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E41C56128D8E4A600F3B33F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7E41C56328D8E4A600F3B33F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		7E41C57928D8E9CE00F3B33F /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7E41C53D28D8E4A400F3B33F /* LearningGBApp.swift */,
+				7E41C57928D8E9CE00F3B33F /* MyModel.swift */,
 				7E41C53E28D8E4A400F3B33F /* ContentView.swift */,
 				7E41C53F28D8E4A600F3B33F /* Assets.xcassets */,
 			);
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E41C56728D8E4A600F3B33F /* ContentView.swift in Sources */,
+				7E41C57A28D8E9CE00F3B33F /* MyModel.swift in Sources */,
 				7E41C56528D8E4A600F3B33F /* LearningGBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E41C56828D8E4A600F3B33F /* ContentView.swift in Sources */,
+				7E41C57B28D8E9CE00F3B33F /* MyModel.swift in Sources */,
 				7E41C56628D8E4A600F3B33F /* LearningGBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
